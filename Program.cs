@@ -1,20 +1,12 @@
 ﻿
 using System.Text;
+using Assignment_3._1;
 
-string ReturnEvenNumbers()
-{
-    StringBuilder sb = new StringBuilder();
-    
-    for (int i = 2; i < 100; i += 2)
-    {
-        sb.Append(i);
-        if (i < 98)
-        {
-            sb.Append(", ");
-        }
+LeapYear leapYear = new LeapYear();
+EvenNumbers evenNumbers = new EvenNumbers();
+CountSpaces countSpaces = new CountSpaces();
 
-    }
-    return sb.ToString();
-}
 
-Console.WriteLine(ReturnEvenNumbers());
+
+
+countSpaces.PrintNumberOfSpaces();
