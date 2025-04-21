@@ -5,8 +5,7 @@ using Assignment_3._1;
 LeapYear leapYear = new LeapYear();
 EvenNumbers evenNumbers = new EvenNumbers();
 CountSpaces countSpaces = new CountSpaces();
+ConsecutiveNumbers consecutiveNumbers = new ConsecutiveNumbers();
 
 
-
-
-countSpaces.PrintNumberOfSpaces();
+consecutiveNumbers.PrintArray();
